@@ -36,43 +36,50 @@ body{
     color:var(--greencolor);
 }
 
-.login{
-    background-color: var(--greencolor);
-}
-
-.login , .reg{
-    border-radius: 20px;
-    padding: 15px;
-    width: 500px;
+.input{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input{
+    font-size: 1.5rem;
+    padding: 10px 0 ;
+    width: 90%;
+    border: none;
+    outline: none;
+
+}
+
+.reg {
+    background-color: var(--greencolor);
+    width: 500px;
+    border-radius: 20px;
     cursor: pointer;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: ease 0.5s;
 }
 
-.login:hover , .reg:hover{
+.reg:hover{
     transform: scale(1.01);
 }
 
-.login button{
-    color: whitesmoke;
-    background-color: inherit;
-}
-
-.reg button{
-    color: var(--greencolor);
-    background-color: whitesmoke;
-}   
-
-.login button , .reg button{
+#btnreg {
     font-size: 1.5rem;
+    color: white;
+    background-color: inherit;
     border: none;
     cursor: inherit;
 }
 
-@media screen and (max-width:450px) {
-    .login , .reg {
+@media screen and (max-width:500px) {
+    .reg , .input{
         width: 340px;
     }
 }
