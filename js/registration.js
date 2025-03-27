@@ -15,6 +15,7 @@ async function register(){
             method:'POST',
             headers: {
                 'content-type':'application/json'
+                
             },
             body: JSON.stringify({ email , name , psw })
         });
