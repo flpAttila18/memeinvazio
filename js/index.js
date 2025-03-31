@@ -1,11 +1,10 @@
-const btnlogin = document.getElementsByClassName("login")[0];
-const btnreg = document.getElementsByClassName("reg")[0];
+const btnLogin = document.getElementsByClassName('login')[0];
+const btnReg = document.getElementsByClassName('reg')[0];
 
+btnLogin.addEventListener('click', () => {
+    window.location.href = '../html/login.html';
+});
 
-btnlogin.addEventListener('click', ()=>{
-    window.location.href='../html/login.html';
-})
-
-btnreg.addEventListener('click', ()=>{
-    window.location.href='../html/registration.html';
-})
+btnReg.addEventListener('click', () => {
+    window.location.href = '../html/registration.html';
+});

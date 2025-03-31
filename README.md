@@ -1,1 +1,1 @@
-Memeinvázió fejlesztés alatt 
+memeinvázió frontend kódjának fejlesztése
